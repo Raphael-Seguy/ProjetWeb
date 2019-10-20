@@ -1,0 +1,89 @@
+Instruction :
+
+	Créez un site web qui permettra à ses usagers de partager des images lié à des positions géographiques.
+	
+	Requit pour un minimum de réussite :
+    • Un systeme de connexion
+    • Un systeme de gestion de profils
+    • Une gestion de publications d’images
+    • Une gestion d’information relatives à ces images
+    • Une gestion des appréciations et commentaires fait sur les post des utilisateurs.
+    • Une gestion de cartes permettant d’afficher les position des images.
+    • Une gestion des différents types d’utilisateurs avec les différents droits.
+	Développements et innovations intéressants :
+    • Une visualisation en trois dé des positions.
+    • Un système de lien utilisateur-utilisateur à plusieurs niveau pourrait êtres intéressant à intégrer(Admin,modérateurs de contenue,amis et followers)
+    • Une page actualité qui présente à l’utilisateur une vue générale des dernier post fait sur le site (Avec aussi les post posté en privé par leur amis).
+    • Tentez de montrer à l’utilisateur que les postes qu’il n’a pas déjà vue,  en gardant en historique tous ceux qu’il a vue afin de facilité l’accès de ces dernier.
+
+Navigation
+
+
+
+
+    • Users
+    • Connexion
+    • Inscription
+
+    • Gallery
+    • Sauvegarde images uploadées
+    • Suppression
+    • Organisation dans un tableau
+    • ++
+
+    • Settings
+
+    • Changement de Background
+    • Langues
+    • ++
+
+
+ Options Users & Settings : Dropdowns ou redirection vers pages html.
+
+
+Ajout
+
+Logo et barre de recherche ?
+Boutons home qui dirige vers page d’actualité
+
+Upload
+
+
+
+
+
+    1. Insertion Image 
+
+    • Restriction fichiers de types images jpeg,png,…
+    • Superposition, Adaptation des images dans la grille ou autre …
+
+
+    2. Options (3)
+               
+    • Like
+    • Changement de couleurs
+    • Ajouts de compteurs pour Users
+
+    • Commentaires
+
+    • Boutons qui affichent les commentaires et les cachent
+    • Ou page Commentaires avec images à gauche
+    • ++
+
+    • Partage réseaux sociaux
+    • Infos localisations
+
+
+Tables php
+Tables users (id,nom,prenom,pseudo, …)
+Tables commentaires (idcom,idusers, …)
+…
+
+Pages à développer
+    • Index
+    • Inscription 
+    • Connexion
+    • Commentaires
+    • Actualité
+    • Profil
+    • …
