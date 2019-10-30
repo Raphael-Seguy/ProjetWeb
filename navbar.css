@@ -1,0 +1,155 @@
+.navbar-inverse{
+
+  background-color: black;
+}
+
+
+.flex> div li a{
+
+  color: black;
+}
+
+.flex> div li a:hover{
+
+  color: white;
+}
+
+.box
+{
+	height:100px;
+	background-color:white;
+	border :solid 1px black;	
+}
+
+.btn,.btnlike,.btnadd{
+  background-color:lightblue; 
+  border: solid;/**/ 
+  border-radius: 10px;
+  color: black; 
+  padding: 12px 16px;
+  cursor: pointer; 
+}
+
+.btn:hover,.btnadd:hover {
+
+  background-color:dodgerblue;
+  color: white;
+}
+
+.btnadd {
+  
+  outline: none;  
+  border-radius: 35px;
+  border-style: solid;
+  margin-top: 75px;
+  /*margin-right: 50px;*/
+}
+
+input[type=file]{
+
+  filter: alpha(opacity=0);
+    opacity: 0;
+
+    outline: none;
+    width: 15px;
+    height:15px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+
+/*Si on met image dans la grille*****************/
+.picplus{
+
+  width: 280px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.gridupload{
+
+  border: solid 3px grey;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+.upload{
+    
+    /*--deja centré avec center!*/
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.setupload{
+
+  padding-top: 50px;
+}
+/***********************************************/
+.options{
+
+  padding-top:5px;
+}
+
+@font-face { 
+
+    font-family:'ChunkFive-Regular';
+    src: url('ChunkFive-Regular.otf');
+    
+    /*font-family:'blackjack';
+    src: url('blackjack.otf');*/
+}
+
+h1{
+  font-family: 'ChunkFive-Regular';
+  /*font-family:'blackjack';*/
+}
+
+/*SIDE BAR*************************************************/
+
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  top: 0;
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /*hide the close button */
+  padding-top: 60px; 
+  transition: 0.5s; /* 0.5 second transition effect */
+  /*z-index: 1;  Stay on top */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;/*size police*/
+  color: #818181;
+  display: block;/*!*/
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: dodgerblue;/*#f1f1f1*/
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}*/
+
+
+
+
